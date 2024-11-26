@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    background-color: #243642;
+}
+
+h1, h3, .midp, .tilt, .drum{
+    font-family: "Pacifico", sans-serif;
+    color: #EEEEEE;
+} 
+
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.midp, .tilt {
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+
+.tilt {
+    display: none;
+}
+
+.drum {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #1c303d;
+    border-radius: 10%;
+    margin: 30px;
+    color: #ddd4d4;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.w {
+    background-image: url(drumkit/images/tom1.png);
+    background-position: center;
+    background-size: cover;
+}
+.a {
+    background-image: url(drumkit/images/tom2.png);
+    background-position: center;
+    background-size: cover;
+}
+.s {
+    background-image: url(drumkit/images/tom3.png);
+
+    background-size: cover;
+}
+.d {
+    background-image: url(drumkit/images/tom4.png);
+    background-size: cover;
+}
+.f {
+    background-image: url(drumkit/images/snare.png);
+    background-position: center;
+    background-size: cover;
+}
+.k {
+    background-image: url(drumkit/images/kick.png);
+    background-size: cover;
+}
+.c {
+    background-image: url(drumkit/images/crash.png);
+    background-size: cover;
+}
+
+.middle {
+    padding-bottom: 5%;
+}
+
+
+.footer {
+    color: #eeeeee;
+    font-family: "Montserrat", sans-serif;
+}
+
+a, a:visited {
+    color: #c7c7c7;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    .btn {
+        height: 150px;
+        width: 150px;
+        margin: 15px;
+        font-size: 30px;
+    }
+
+    .tilt, .midp {
+        display: block;
+        font-size: 1.25rem;
+    }
+
+}
