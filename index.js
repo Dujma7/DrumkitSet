@@ -48,7 +48,7 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
                 console.log("hello")
                 break;
         }
-        addAnimation(btnInnerHTML);})}
+        addAnimation(btnInnerHTML.toLowerCase());})}
 
 document.addEventListener("keypress", function (event) {
     var keystroke = (event.key).toLowerCase();
