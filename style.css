@@ -44,7 +44,7 @@ h3 {
 }
 
 .w {
-    background-image: url(drumkit/images/tom1.png);
+    background-image: url(/images/tom1.png);
     background-position: center;
     background-size: cover;
 }
