@@ -49,30 +49,30 @@ h3 {
     background-size: cover;
 }
 .a {
-    background-image: url(drumkit/images/tom2.png);
+    background-image: url(/images/tom2.png);
     background-position: center;
     background-size: cover;
 }
 .s {
-    background-image: url(drumkit/images/tom3.png);
+    background-image: url(/images/tom3.png);
 
     background-size: cover;
 }
 .d {
-    background-image: url(drumkit/images/tom4.png);
+    background-image: url(/images/tom4.png);
     background-size: cover;
 }
 .f {
-    background-image: url(drumkit/images/snare.png);
+    background-image: url(/images/snare.png);
     background-position: center;
     background-size: cover;
 }
 .k {
-    background-image: url(drumkit/images/kick.png);
+    background-image: url(/images/kick.png);
     background-size: cover;
 }
 .c {
-    background-image: url(drumkit/images/crash.png);
+    background-image: url(/images/crash.png);
     background-size: cover;
 }
 
